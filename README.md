@@ -31,7 +31,7 @@ Make sure you have the following requirements installed on your system:
 
 3. Run the main script:
 ```bash
-   ./address_book.sh
+   ./main.sh
 ```
 
 4. Follow the on-screen instructions to add, view, search, edit, or delete contacts.
@@ -40,27 +40,48 @@ Make sure you have the following requirements installed on your system:
 
 - Add a new contact:
 ```bash
-   ./address_book.sh --add
+   ./main.sh --add
 ```
   
 - View all contacts:
 ```bash
-  ./address_book.sh --view
+  ./main.sh --view
 ```
   
 - Search for a contact by name:
 ```bash
-  ./address_book.sh --search "Name"
+  ./main.sh --search $Name 
 ```
   
 - Edit an existing contact:
 ```bash
-  ./address_book.sh --edit "Name"
+  ./main.sh --edit $Name
 ```
   
 - Delete an existing contact:
 ```bash
-  ./address_book.sh --delete "Name"
+  ./main.sh --delete $Name
+```
+
+## Makefile usage
+
+```bash
+add                            Add a new contact
+delete                         Delete a contact
+edit                           Edit a contact
+help                           Show help
+search                         Search a contact
+view                           View all contacts
+```
+
+- Add a new contact: 
+```bash
+make add
+```
+
+- Edit a contact:
+```bash
+make edit NAME="Name"
 ```
 
 ## Contributing
