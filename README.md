@@ -1,10 +1,10 @@
-# Shell Address Book
+# shell Address Book
 
-This is a simple address book implemented in shell script. It allows you to store and manage contact information such as names, phone numbers, and addresses.
+This is a simple address book implemented in shell script. It allows you to store and manage contact information such as names, phone numbers.
 
-## Features (In Development)
+## Features 
 
-- Add new contacts with their names, phone numbers, and addresses.
+- Add new contacts with their names, phone numbers.
 - View all stored contacts.
 - Search for a specific contact by name.
 - Delete an existing contact.

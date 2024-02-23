@@ -1,0 +1,13 @@
+
+
+./address_book.sh [OPTIONS]
+
+Options:
+  --add            Add a new contact to the address book.
+  --view           View all contacts in the address book.
+  --search NAME    Search for a contact by name.
+  --edit NAME      Edit an existing contact by name.
+  --delete NAME    Delete an existing contact by name.
+  --help           Display this help message.
+
+
