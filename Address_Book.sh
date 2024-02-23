@@ -12,6 +12,14 @@ personDir="./src/persons"
 #variable that contains the secound argument that holds one name
 contactName=$2
 
+#verify if persons exists
+if [ -d ./src/persons ]
+then #if exists do nothing
+    pass
+else #if dont exist create dir
+    mkdir ./src/persons
+fi
+
 #addContact function
 addContact () {
     
