@@ -15,7 +15,7 @@ contactName=$2
 #verify if persons exists
 if [ -d ./src/persons ]
 then #if exists do nothing
-    pass
+    echo
 else #if dont exist create dir
     mkdir ./src/persons
 fi

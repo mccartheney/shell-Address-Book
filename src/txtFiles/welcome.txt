@@ -1,5 +1,4 @@
 
-
 Welcome to the Address Book!
 This script allows you to manage your contacts efficiently.
 
